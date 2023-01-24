@@ -239,7 +239,7 @@ def rmse_models(X_train, y_train, X_validate, y_validate, train, validate, targe
     rmse_poly_train, rmse_poly_validate= polynomial(X_train,y_train,X_validate,y_validate,'tax_amount', 3)
     
     # assing index
-    index = ['baseline', 'LinearRegreesion', 'LassoLars(alpha=1)', 'TweedieRegreesor(power=0, alpha=0)','Polynomial Regression(degree=3)']
+    index = ['baseline', 'LinearRegreesion', 'LassoLars(alpha=1)', 'TweedieRegreesor(power=1, alpha=0)','Polynomial Regression(degree=3)']
     
     # create a dataframe
     metric_df = pd.DataFrame({'train_RMSE':[train_rmse_mean, rmse_lm_train, rmse_lars_train, rmse_glm_train, rmse_poly_train],
