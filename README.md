@@ -66,8 +66,7 @@ The goal of the project is to analyze data, find key drivers of property value f
 * Increase in area leads in increase of home value.
 * Los Angeles county has the home with less value that ventura and orange county
 * bathroom and sqft have high corelation with our target.
-* Polynomial Regression with degree of 3 to has RMSE which is better than baseline RMSE and train RMSE
-
+* Polynomial Regression with degree of 3 resulted in an improved RMSE of 243241.06 on out of sample data, outperforming the baseline RMSE of 246241.41 on training data.
 # Recommendations
 * explore other attributes to see thier effects on target variables
 * use differnt model to improve predictions..
